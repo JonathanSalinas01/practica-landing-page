@@ -100,6 +100,7 @@ hr{
 
 .tarjetaFinal{
     background-color: rgb(41, 35, 35);
+    padding: 20px;
     width: 100%;
     height: 900px;
     aspect-ratio: 16/9;
