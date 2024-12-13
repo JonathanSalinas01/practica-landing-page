@@ -1,0 +1,91 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+    width: 100%;
+    text-align: center;
+
+}
+
+.titulo{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.subtitulo{
+    font-size: 1rem;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image{
+    background-image: url(/asstets/img/hero-chica.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+    padding: 20px;
+}
+
+.tarjeta1{
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    aspect-ratio: 16/9;
+    text-align: center;
+}
+
+hr{
+    width: 20%;
+}
+
+.tarjeta1 p ~ p{
+    color: gray;
+}
+
+.tarjeta2{
+    background-color: rgb(194, 190, 190);
+    padding: 15px;
+    color: rgb(51, 50, 50);
+    text-align: justify;
+}
